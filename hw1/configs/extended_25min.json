@@ -1,0 +1,19 @@
+{
+  "output_dir": "runs/extended_25min",
+  "per_device_train_batch_size": 32,
+  "per_device_eval_batch_size": 8,
+  "gradient_accumulation_steps": 1,
+  "learning_rate": 0.001,
+  "lr_scheduler_type": "cosine",
+  "warmup_steps": 200,
+  "save_steps": 1000,
+  "eval_steps": 1000,
+  "save_only_model": true,
+  "save_total_limit": 1,
+  "logging_steps": 10,
+  "logging_first_step": true,
+  "torch_compile": true,
+  "seed": 42,
+  "data_seed": 42,
+  "scheduler_steps": 3000
+}
