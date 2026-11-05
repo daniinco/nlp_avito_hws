@@ -1,0 +1,28 @@
+{
+  "name": "lora_r32",
+  "method": "lora",
+  "learning_rate": 0.0002,
+  "r": 32,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "total_params": 1548072448,
+  "trainable_params": 4358144,
+  "training_seconds": 293.9063718309626,
+  "train_peak_allocated_gib": 14.593833446502686,
+  "train_peak_reserved_gib": 33.734375,
+  "steps": 313,
+  "optimizer_state_dtype": "torch.float32",
+  "validation_loss": 0.18899543583393097,
+  "evaluation_seconds": 20.63474223599769,
+  "exact_match": 74.0,
+  "f1": 76.93121238711409,
+  "answerable_f1": 70.61242477422817,
+  "no_answer_accuracy": 83.25,
+  "abstention_rate": 53.75,
+  "hit_token_limit": 0,
+  "n": 800
+}

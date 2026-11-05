@@ -1,0 +1,21 @@
+{
+  "name": "full_ft",
+  "method": "full",
+  "learning_rate": 5e-06,
+  "total_params": 1543714304,
+  "trainable_params": 1543714304,
+  "training_seconds": 384.1349735071417,
+  "train_peak_allocated_gib": 35.93318843841553,
+  "train_peak_reserved_gib": 56.701171875,
+  "steps": 313,
+  "optimizer_state_dtype": "torch.float32",
+  "validation_loss": 0.16935409605503082,
+  "evaluation_seconds": 17.072227151831612,
+  "exact_match": 77.625,
+  "f1": 80.75959837734219,
+  "answerable_f1": 75.76919675468437,
+  "no_answer_accuracy": 85.75,
+  "abstention_rate": 51.74999999999999,
+  "hit_token_limit": 0,
+  "n": 800
+}

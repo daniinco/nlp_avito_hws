@@ -1,0 +1,28 @@
+{
+  "name": "lora_alpha64",
+  "method": "lora",
+  "learning_rate": 0.0002,
+  "r": 16,
+  "lora_alpha": 64,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "total_params": 1545893376,
+  "trainable_params": 2179072,
+  "training_seconds": 293.9183451209683,
+  "train_peak_allocated_gib": 14.569480419158936,
+  "train_peak_reserved_gib": 33.697265625,
+  "steps": 313,
+  "optimizer_state_dtype": "torch.float32",
+  "validation_loss": 0.1801622211933136,
+  "evaluation_seconds": 20.503853927133605,
+  "exact_match": 75.75,
+  "f1": 78.83788127292384,
+  "answerable_f1": 72.92576254584769,
+  "no_answer_accuracy": 84.75,
+  "abstention_rate": 53.0,
+  "hit_token_limit": 0,
+  "n": 800
+}

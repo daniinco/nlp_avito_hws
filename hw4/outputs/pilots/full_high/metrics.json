@@ -1,0 +1,21 @@
+{
+  "name": "full_high",
+  "method": "full",
+  "learning_rate": 2e-05,
+  "total_params": 1543714304,
+  "trainable_params": 1543714304,
+  "training_seconds": 49.55738266883418,
+  "train_peak_allocated_gib": 34.81942415237427,
+  "train_peak_reserved_gib": 69.578125,
+  "steps": 40,
+  "optimizer_state_dtype": "torch.float32",
+  "validation_loss": 0.23267371952533722,
+  "evaluation_seconds": 9.837470608064905,
+  "exact_match": 66.0,
+  "f1": 70.44964112255133,
+  "answerable_f1": 55.39928224510269,
+  "no_answer_accuracy": 85.5,
+  "abstention_rate": 58.25,
+  "hit_token_limit": 1,
+  "n": 400
+}

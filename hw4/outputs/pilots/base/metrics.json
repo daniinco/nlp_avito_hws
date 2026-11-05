@@ -1,0 +1,18 @@
+{
+  "name": "base",
+  "method": "base",
+  "learning_rate": 0.0,
+  "total_params": 1543714304,
+  "trainable_params": 0,
+  "training_seconds": 0.0,
+  "train_peak_allocated_gib": 0.0,
+  "train_peak_reserved_gib": 0.0,
+  "evaluation_seconds": 11.54819368594326,
+  "exact_match": 38.5,
+  "f1": 45.00463600409253,
+  "answerable_f1": 77.00927200818506,
+  "no_answer_accuracy": 13.0,
+  "abstention_rate": 6.5,
+  "hit_token_limit": 0,
+  "n": 400
+}

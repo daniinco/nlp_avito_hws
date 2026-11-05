@@ -1,0 +1,21 @@
+{
+  "name": "full_low",
+  "method": "full",
+  "learning_rate": 5e-06,
+  "total_params": 1543714304,
+  "trainable_params": 1543714304,
+  "training_seconds": 49.51605813484639,
+  "train_peak_allocated_gib": 34.81942415237427,
+  "train_peak_reserved_gib": 69.578125,
+  "steps": 40,
+  "optimizer_state_dtype": "torch.float32",
+  "validation_loss": 0.23942558467388153,
+  "evaluation_seconds": 8.553456330904737,
+  "exact_match": 68.25,
+  "f1": 71.79115818392134,
+  "answerable_f1": 65.58231636784268,
+  "no_answer_accuracy": 78.0,
+  "abstention_rate": 50.24999999999999,
+  "hit_token_limit": 0,
+  "n": 400
+}

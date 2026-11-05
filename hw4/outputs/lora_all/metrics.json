@@ -1,0 +1,33 @@
+{
+  "name": "lora_all",
+  "method": "lora",
+  "learning_rate": 0.0002,
+  "r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "total_params": 1562179072,
+  "trainable_params": 18464768,
+  "training_seconds": 458.04563732095994,
+  "train_peak_allocated_gib": 14.751620769500732,
+  "train_peak_reserved_gib": 34.115234375,
+  "steps": 313,
+  "optimizer_state_dtype": "torch.float32",
+  "validation_loss": 0.17087410390377045,
+  "evaluation_seconds": 32.73149058804847,
+  "exact_match": 77.625,
+  "f1": 80.50440675523879,
+  "answerable_f1": 76.00881351047761,
+  "no_answer_accuracy": 85.0,
+  "abstention_rate": 51.37500000000001,
+  "hit_token_limit": 0,
+  "n": 800
+}

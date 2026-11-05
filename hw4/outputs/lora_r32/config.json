@@ -1,0 +1,45 @@
+{
+  "experiment": {
+    "method": "lora",
+    "learning_rate": 0.0002,
+    "r": 32,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "training": {
+    "num_train_epochs": 1,
+    "per_device_train_batch_size": 8,
+    "per_device_eval_batch_size": 4,
+    "gradient_accumulation_steps": 4,
+    "lr_scheduler_type": "cosine",
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0,
+    "gradient_checkpointing": true,
+    "gradient_checkpointing_kwargs": {
+      "use_reentrant": false
+    },
+    "bf16": true,
+    "tf32": true,
+    "optim": "adamw_torch_fused",
+    "logging_steps": 10,
+    "eval_strategy": "no",
+    "save_strategy": "no",
+    "report_to": "none",
+    "seed": 42,
+    "data_seed": 42,
+    "skip_memory_metrics": true
+  },
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "dataset_revision": "3ffb306f725f7d2ce8394bc1873b24868140c412",
+  "evaluation_split": "test",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "torch_version": "2.8.0+cu126",
+  "trainable_dtypes": [
+    "torch.float32"
+  ]
+}
